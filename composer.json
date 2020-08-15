@@ -1,0 +1,14 @@
+{
+    "name": "c-squared-solutions-llc/hmac-util",
+    "description": "PHP HMAC utility library for signing and verifying signed requests",
+    "type": "library",
+    "homepage": "https://c2rd.io",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Casey Christensen",
+            "email": "casey@c2rd.io"
+        }
+    ],
+    "require": {}
+}
