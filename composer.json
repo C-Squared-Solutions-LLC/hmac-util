@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4":{
-            "CSquaredSolutionsLlc\\HmacUtil\\": ""
+            "CSquaredSolutionsLlc\\HmacUtil\\": "hmac-util"
         }
     }
 }
