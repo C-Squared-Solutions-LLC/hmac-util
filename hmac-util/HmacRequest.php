@@ -20,24 +20,24 @@ class HmacRequest {
 	private $username;
 	private $secret;
 
-	public function __setter($name, $value){
+	public function __set($name, $value){
 
 		if(method_exists($this,"set" . $this->variableToMethod($name))) {
 			$this->{"set" . $this->variableToMethod($name)}($value);
 			return;
 		}
 
-		$this->e_{$name} = $value;
+		$this->{"e_" . $name} = $value;
 
 	}
 
-	public function __getter($name){
+	public function __get($name){
 
 		if(method_exists($this,"get" . $this->variableToMethod($name))) {
 			return $this->{"get" . $this->variableToMethod($name)}();
 		}
 
-		return $this->e_{$name};
+		return $this->{"e_" . $name};
 
 	}
 
